@@ -2,12 +2,14 @@ import React from 'react';
 
 function tabSelected(name) {
     console.log(`${name} clicked`)
+
   }
 
 function Nav() {
+    
     const tabs = [
         {
-            name: "ABOUT ME",
+            name: "ABOUT",
             description: "Info about the developer."
         },
         {
@@ -26,7 +28,7 @@ function Nav() {
   return (
     <header>
         <nav>
-            <ul className="flex-row">
+            <ul id="nav-list" className="flex-row">
                 {tabs.map((tab) => (
                     <li
                     className="mx-1"
