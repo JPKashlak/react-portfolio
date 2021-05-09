@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer id="footer">
+        <section id="footer">
             <p>REACH OUT </p>
             <ul id="footer-links">
                 <li>
@@ -15,7 +15,7 @@ function Footer() {
                     <a href="https://stackoverflow.com/users/14531631/jpkashlak" target="_blank" rel="noopener noreferrer">STACK OVERFLOW</a>
                 </li>
             </ul>
-        </footer>
+        </section>
     )
 }
 

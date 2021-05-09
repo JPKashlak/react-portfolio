@@ -1,4 +1,5 @@
 import React from 'react';
+import coverImage from '../../assets/images/cover.png';
 
 function tabSelected(name) {
     console.log(`${name} clicked`)
@@ -13,21 +14,22 @@ function Nav() {
             description: "Info about the developer."
         },
         {
-            name: "contact",
-            description: "How to reach the developer."
-        },
-        {
             name: "portfolio",
             description: "A sample of the developer's work."
         },
         {
             name: "resume",
             description: "A downloadable resume."
+        },
+        {
+            name: "contact",
+            description: "How to reach the developer."
         }
     ]
   return (
-    <header>
+    <section>
         <nav>
+            <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
             <ul id="nav-list" className="flex-row">
                 {tabs.map((tab) => (
                     <li
@@ -41,7 +43,7 @@ function Nav() {
                 ))}
             </ul>
         </nav>
-    </header>
+    </section>
   );
 }
 

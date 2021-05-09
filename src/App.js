@@ -4,16 +4,19 @@ import About from './components/About'
 import ContactForm from './components/Contact';
 import Footer from './components/Footer'
 import Nav from './components/Nav'
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
 
 function App() {
   return (
     <div>
       <header>
-        
+        <Nav></Nav>
       </header>
       <main>
-        <Nav></Nav>
         <About></About>
+        <Portfolio></Portfolio>
+        <Resume></Resume>
         <ContactForm></ContactForm>
       </main>
       <footer>
