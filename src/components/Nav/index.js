@@ -9,19 +9,19 @@ function Nav() {
     
     const tabs = [
         {
-            name: "ABOUT",
+            name: "about",
             description: "Info about the developer."
         },
         {
-            name: "CONTACT",
+            name: "contact",
             description: "How to reach the developer."
         },
         {
-            name: "PORTFOLIO",
+            name: "portfolio",
             description: "A sample of the developer's work."
         },
         {
-            name: "RESUME",
+            name: "resume",
             description: "A downloadable resume."
         }
     ]
@@ -34,9 +34,9 @@ function Nav() {
                     className="mx-1"
                     key={tab.name}
                     >
-                        <span onClick={() => tabSelected(tab.name)}>
+                        <a href={"#" + tab.name}  onClick={() => tabSelected(tab.name)}>
                             {tab.name}
-                        </span>
+                        </a>
                     </li>
                 ))}
             </ul>
