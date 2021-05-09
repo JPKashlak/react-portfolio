@@ -1,20 +1,46 @@
 import React from 'react';
 
+function tabSelected(name) {
+    console.log(`${name} clicked`)
+  }
+
 function Nav() {
-    return(
-        <section>
-            <nav>
+    const tabs = [
+        {
+            name: "ABOUT ME",
+            description: "Info about the developer."
+        },
+        {
+            name: "CONTACT",
+            description: "How to reach the developer."
+        },
+        {
+            name: "PORTFOLIO",
+            description: "A sample of the developer's work."
+        },
+        {
+            name: "RESUME",
+            description: "A downloadable resume."
+        }
+    ]
+  return (
+    <header>
+        <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="#about">About me</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                </ul>
-            </nav>
-        </section>
-    )
+                {tabs.map((tab) => (
+                    <li
+                    className="mx-1"
+                    key={tab.name}
+                    >
+                        <span onClick={() => tabSelected(tab.name)}>
+                            {tab.name}
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </nav>
+    </header>
+  );
 }
 
 export default Nav;

@@ -9,9 +9,10 @@ function App() {
   return (
     <div>
       <header>
-        <Nav></Nav>
+        
       </header>
       <main>
+        <Nav></Nav>
         <About></About>
         <ContactForm></ContactForm>
       </main>

@@ -8,15 +8,17 @@ ul {
   list-style-type: none;
   font-size: large;
 }
+a {
+  color: hotpink;
+  text-decoration: none;
+  font-weight: bold;
+}
 footer {
   text-align: center;
   color: blueviolet;
   font-weight: bold;
 }
-footer a {
-  color: hotpink;
-  text-decoration: none;
-}
+
 button {
   background-color: rgba(87, 0, 128, 0.925);
   border: none;
