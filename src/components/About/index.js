@@ -12,7 +12,7 @@ function About() {
         </li>
         <li>
         <div className="my-2">
-          <p>Jacob is an Austin-based full stack web developer and theatre artist.</p>
+          <p>Jacob is an Austin-based full stack web developer, theatre artist, and coffee enthusiast.</p>
         </div>
         </li>
       </ul>
