@@ -5,7 +5,7 @@ function About() {
     <section>
       <ul id="about">
         <li>
-        <h2><span>Jacob Pearson Kashlak</span></h2>
+        <h2><span>About Me</span></h2>
         </li>
         <li>
         <img id="portrait" src={require('../../assets/images/portrait.jpeg')} alt="programmer's portrait"/>

@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <section id="footer">
-            <p>REACH OUT </p>
+            <h2><span>Reach Out</span></h2>
             <ul id="footer-links">
                 <li>
                     <a href="https://github.com/JPKashlak" target="_blank" rel="noopener noreferrer">GITHUB</a>
