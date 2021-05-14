@@ -1,6 +1,6 @@
 # React Portfolio
 ## Description
-A portfolio of my recent work untilizing React as the framework for the deployed application.
+A portfolio of my recent work utilizing React as the framework for the deployed application.
 ## Built With
 * React
 * JavaScript
